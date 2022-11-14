@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+/* style the header */
+header {
+    background-color: aquamarine;
+    padding: 20px;
+    text-align: center;
+}
+
+/* style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: rgb(20, 189, 4);
+}
+
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    text-align: center;
+}   
+
+p {
+    color: blue;
+
+}
+
+p.ex {
+    outline-color: rgb(194, 137, 13)
+}
+
+h1 {
+    color: rgb(163, 10, 143);
+    text-align:center ;
+
+
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+ body {
+    background-image: url(image/tree-736885__480.jpg);
+    background-repeat: no-repeat;   
+    background-size: cover;
+ }
+
+a {
+    color: hotpink;
+}
+
+table,
+th,
+td {
+    border: 1px solid;
+}
+
+table {
+    color: rgb(12, 209, 117);
+    text-align: center;
+}
